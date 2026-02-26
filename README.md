@@ -34,8 +34,18 @@ int main()
                 3 list = [Cat do]
 
                 4 disassemble function-name = []
+
+                5 (x/o hexadecimal-address = [Octal], x/x $register-name [Hexadecimal], x/u $register-name = [Base 10 decimal], x/t $register-name = [Binary]):
+ 
+                    0 x/number? $register-name = [Give us first number of register-name addresses] 
+
+                    1 x/number?b = [Give us first number of register-name addresses in two-byte format]
+
+                    2 x/number?h = [Give us first number of register-name addresses in half-word format]
+
+                    3 x/number?w = [First hlaf-word of registers hexadecimal address in full-word format]
     
-                5 quit"""
+                6 quit"""
 
     };
 

@@ -1,0 +1,1175 @@
+
+a.out:     file format elf64-x86-64
+
+
+Disassembly of section .note.gnu.build-id:
+
+0000000000000388 <.note.gnu.build-id>:
+ 388:	04 00                	add    al,0x0
+ 38a:	00 00                	add    BYTE PTR [rax],al
+ 38c:	14 00                	adc    al,0x0
+ 38e:	00 00                	add    BYTE PTR [rax],al
+ 390:	03 00                	add    eax,DWORD PTR [rax]
+ 392:	00 00                	add    BYTE PTR [rax],al
+ 394:	47                   	rex.RXB
+ 395:	4e 55                	rex.WRX push rbp
+ 397:	00 fc                	add    ah,bh
+ 399:	d4                   	(bad)
+ 39a:	55                   	push   rbp
+ 39b:	5b                   	pop    rbx
+ 39c:	f0 5c                	lock pop rsp
+ 39e:	06                   	(bad)
+ 39f:	63 40 47             	movsxd eax,DWORD PTR [rax+0x47]
+ 3a2:	02 90 79 6e 55 91    	add    dl,BYTE PTR [rax-0x6eaa9187]
+ 3a8:	ef                   	out    dx,eax
+ 3a9:	a9                   	.byte 0xa9
+ 3aa:	72 09                	jb     3b5 <_init-0xc4b>
+
+Disassembly of section .interp:
+
+00000000000003ac <.interp>:
+ 3ac:	2f                   	(bad)
+ 3ad:	6c                   	ins    BYTE PTR [rdi],dx
+ 3ae:	69 62 36 34 2f 6c 64 	imul   esp,DWORD PTR [rdx+0x36],0x646c2f34
+ 3b5:	2d 6c 69 6e 75       	sub    eax,0x756e696c
+ 3ba:	78 2d                	js     3e9 <_init-0xc17>
+ 3bc:	78 38                	js     3f6 <_init-0xc0a>
+ 3be:	36 2d 36 34 2e 73    	ss sub eax,0x732e3436
+ 3c4:	6f                   	outs   dx,DWORD PTR [rsi]
+ 3c5:	2e 32 00             	cs xor al,BYTE PTR [rax]
+
+Disassembly of section .gnu.hash:
+
+00000000000003c8 <.gnu.hash>:
+ 3c8:	02 00                	add    al,BYTE PTR [rax]
+ 3ca:	00 00                	add    BYTE PTR [rax],al
+ 3cc:	06                   	(bad)
+ 3cd:	00 00                	add    BYTE PTR [rax],al
+ 3cf:	00 01                	add    BYTE PTR [rcx],al
+ 3d1:	00 00                	add    BYTE PTR [rax],al
+ 3d3:	00 06                	add    BYTE PTR [rsi],al
+ 3d5:	00 00                	add    BYTE PTR [rax],al
+ 3d7:	00 00                	add    BYTE PTR [rax],al
+ 3d9:	00 81 00 00 00 00    	add    BYTE PTR [rcx+0x0],al
+ 3df:	00 06                	add    BYTE PTR [rsi],al
+ 3e1:	00 00                	add    BYTE PTR [rax],al
+ 3e3:	00 00                	add    BYTE PTR [rax],al
+ 3e5:	00 00                	add    BYTE PTR [rax],al
+ 3e7:	00 d1                	add    cl,dl
+ 3e9:	65 ce                	gs (bad)
+ 3eb:	6d                   	ins    DWORD PTR [rdi],dx
+
+Disassembly of section .dynsym:
+
+00000000000003f0 <.dynsym>:
+	...
+ 408:	06                   	(bad)
+ 409:	00 00                	add    BYTE PTR [rax],al
+ 40b:	00 12                	add    BYTE PTR [rdx],dl
+	...
+ 41d:	00 00                	add    BYTE PTR [rax],al
+ 41f:	00 48 00             	add    BYTE PTR [rax+0x0],cl
+ 422:	00 00                	add    BYTE PTR [rax],al
+ 424:	20 00                	and    BYTE PTR [rax],al
+	...
+ 436:	00 00                	add    BYTE PTR [rax],al
+ 438:	01 00                	add    DWORD PTR [rax],eax
+ 43a:	00 00                	add    BYTE PTR [rax],al
+ 43c:	12 00                	adc    al,BYTE PTR [rax]
+	...
+ 44e:	00 00                	add    BYTE PTR [rax],al
+ 450:	64 00 00             	add    BYTE PTR fs:[rax],al
+ 453:	00 20                	add    BYTE PTR [rax],ah
+	...
+ 465:	00 00                	add    BYTE PTR [rax],al
+ 467:	00 73 00             	add    BYTE PTR [rbx+0x0],dh
+ 46a:	00 00                	add    BYTE PTR [rax],al
+ 46c:	20 00                	and    BYTE PTR [rax],al
+	...
+ 47e:	00 00                	add    BYTE PTR [rax],al
+ 480:	18 00                	sbb    BYTE PTR [rax],al
+ 482:	00 00                	add    BYTE PTR [rax],al
+ 484:	22 00                	and    al,BYTE PTR [rax]
+	...
+
+Disassembly of section .dynstr:
+
+0000000000000498 <.dynstr>:
+ 498:	00 70 75             	add    BYTE PTR [rax+0x75],dh
+ 49b:	74 73                	je     510 <_init-0xaf0>
+ 49d:	00 5f 5f             	add    BYTE PTR [rdi+0x5f],bl
+ 4a0:	6c                   	ins    BYTE PTR [rdi],dx
+ 4a1:	69 62 63 5f 73 74 61 	imul   esp,DWORD PTR [rdx+0x63],0x6174735f
+ 4a8:	72 74                	jb     51e <_init-0xae2>
+ 4aa:	5f                   	pop    rdi
+ 4ab:	6d                   	ins    DWORD PTR [rdi],dx
+ 4ac:	61                   	(bad)
+ 4ad:	69 6e 00 5f 5f 63 78 	imul   ebp,DWORD PTR [rsi+0x0],0x78635f5f
+ 4b4:	61                   	(bad)
+ 4b5:	5f                   	pop    rdi
+ 4b6:	66 69 6e 61 6c 69    	imul   bp,WORD PTR [rsi+0x61],0x696c
+ 4bc:	7a 65                	jp     523 <_init-0xadd>
+ 4be:	00 6c 69 62          	add    BYTE PTR [rcx+rbp*2+0x62],ch
+ 4c2:	63 2e                	movsxd ebp,DWORD PTR [rsi]
+ 4c4:	73 6f                	jae    535 <_init-0xacb>
+ 4c6:	2e 36 00 47 4c       	cs ss add BYTE PTR [rdi+0x4c],al
+ 4cb:	49                   	rex.WB
+ 4cc:	42                   	rex.X
+ 4cd:	43 5f                	rex.XB pop r15
+ 4cf:	32 2e                	xor    ch,BYTE PTR [rsi]
+ 4d1:	32 2e                	xor    ch,BYTE PTR [rsi]
+ 4d3:	35 00 47 4c 49       	xor    eax,0x494c4700
+ 4d8:	42                   	rex.X
+ 4d9:	43 5f                	rex.XB pop r15
+ 4db:	32 2e                	xor    ch,BYTE PTR [rsi]
+ 4dd:	33 34 00             	xor    esi,DWORD PTR [rax+rax*1]
+ 4e0:	5f                   	pop    rdi
+ 4e1:	49 54                	rex.WB push r12
+ 4e3:	4d 5f                	rex.WRB pop r15
+ 4e5:	64 65 72 65          	fs gs jb 54e <_init-0xab2>
+ 4e9:	67 69 73 74 65 72 54 	imul   esi,DWORD PTR [ebx+0x74],0x4d547265
+ 4f0:	4d 
+ 4f1:	43 6c                	rex.XB ins BYTE PTR [rdi],dx
+ 4f3:	6f                   	outs   dx,DWORD PTR [rsi]
+ 4f4:	6e                   	outs   dx,BYTE PTR [rsi]
+ 4f5:	65 54                	gs push rsp
+ 4f7:	61                   	(bad)
+ 4f8:	62 6c 65 00 5f       	(bad)
+ 4fd:	5f                   	pop    rdi
+ 4fe:	67 6d                	ins    DWORD PTR [edi],dx
+ 500:	6f                   	outs   dx,DWORD PTR [rsi]
+ 501:	6e                   	outs   dx,BYTE PTR [rsi]
+ 502:	5f                   	pop    rdi
+ 503:	73 74                	jae    579 <_init-0xa87>
+ 505:	61                   	(bad)
+ 506:	72 74                	jb     57c <_init-0xa84>
+ 508:	5f                   	pop    rdi
+ 509:	5f                   	pop    rdi
+ 50a:	00 5f 49             	add    BYTE PTR [rdi+0x49],bl
+ 50d:	54                   	push   rsp
+ 50e:	4d 5f                	rex.WRB pop r15
+ 510:	72 65                	jb     577 <_init-0xa89>
+ 512:	67 69 73 74 65 72 54 	imul   esi,DWORD PTR [ebx+0x74],0x4d547265
+ 519:	4d 
+ 51a:	43 6c                	rex.XB ins BYTE PTR [rdi],dx
+ 51c:	6f                   	outs   dx,DWORD PTR [rsi]
+ 51d:	6e                   	outs   dx,BYTE PTR [rsi]
+ 51e:	65 54                	gs push rsp
+ 520:	61                   	(bad)
+ 521:	62                   	.byte 0x62
+ 522:	6c                   	ins    BYTE PTR [rdi],dx
+ 523:	65                   	gs
+	...
+
+Disassembly of section .gnu.version:
+
+0000000000000526 <.gnu.version>:
+ 526:	00 00                	add    BYTE PTR [rax],al
+ 528:	02 00                	add    al,BYTE PTR [rax]
+ 52a:	00 00                	add    BYTE PTR [rax],al
+ 52c:	03 00                	add    eax,DWORD PTR [rax]
+ 52e:	00 00                	add    BYTE PTR [rax],al
+ 530:	00 00                	add    BYTE PTR [rax],al
+ 532:	03 00                	add    eax,DWORD PTR [rax]
+
+Disassembly of section .gnu.version_r:
+
+0000000000000538 <.gnu.version_r>:
+ 538:	01 00                	add    DWORD PTR [rax],eax
+ 53a:	02 00                	add    al,BYTE PTR [rax]
+ 53c:	27                   	(bad)
+ 53d:	00 00                	add    BYTE PTR [rax],al
+ 53f:	00 10                	add    BYTE PTR [rax],dl
+ 541:	00 00                	add    BYTE PTR [rax],al
+ 543:	00 00                	add    BYTE PTR [rax],al
+ 545:	00 00                	add    BYTE PTR [rax],al
+ 547:	00 75 1a             	add    BYTE PTR [rbp+0x1a],dh
+ 54a:	69 09 00 00 03 00    	imul   ecx,DWORD PTR [rcx],0x30000
+ 550:	31 00                	xor    DWORD PTR [rax],eax
+ 552:	00 00                	add    BYTE PTR [rax],al
+ 554:	10 00                	adc    BYTE PTR [rax],al
+ 556:	00 00                	add    BYTE PTR [rax],al
+ 558:	b4 91                	mov    ah,0x91
+ 55a:	96                   	xchg   esi,eax
+ 55b:	06                   	(bad)
+ 55c:	00 00                	add    BYTE PTR [rax],al
+ 55e:	02 00                	add    al,BYTE PTR [rax]
+ 560:	3d 00 00 00 00       	cmp    eax,0x0
+ 565:	00 00                	add    BYTE PTR [rax],al
+	...
+
+Disassembly of section .rela.dyn:
+
+0000000000000568 <.rela.dyn>:
+ 568:	d0 3d 00 00 00 00    	sar    BYTE PTR [rip+0x0],1        # 56e <_init-0xa92>
+ 56e:	00 00                	add    BYTE PTR [rax],al
+ 570:	08 00                	or     BYTE PTR [rax],al
+ 572:	00 00                	add    BYTE PTR [rax],al
+ 574:	00 00                	add    BYTE PTR [rax],al
+ 576:	00 00                	add    BYTE PTR [rax],al
+ 578:	30 11                	xor    BYTE PTR [rcx],dl
+ 57a:	00 00                	add    BYTE PTR [rax],al
+ 57c:	00 00                	add    BYTE PTR [rax],al
+ 57e:	00 00                	add    BYTE PTR [rax],al
+ 580:	d8 3d 00 00 00 00    	fdivr  DWORD PTR [rip+0x0]        # 586 <_init-0xa7a>
+ 586:	00 00                	add    BYTE PTR [rax],al
+ 588:	08 00                	or     BYTE PTR [rax],al
+ 58a:	00 00                	add    BYTE PTR [rax],al
+ 58c:	00 00                	add    BYTE PTR [rax],al
+ 58e:	00 00                	add    BYTE PTR [rax],al
+ 590:	f0 10 00             	lock adc BYTE PTR [rax],al
+ 593:	00 00                	add    BYTE PTR [rax],al
+ 595:	00 00                	add    BYTE PTR [rax],al
+ 597:	00 10                	add    BYTE PTR [rax],dl
+ 599:	40 00 00             	rex add BYTE PTR [rax],al
+ 59c:	00 00                	add    BYTE PTR [rax],al
+ 59e:	00 00                	add    BYTE PTR [rax],al
+ 5a0:	08 00                	or     BYTE PTR [rax],al
+ 5a2:	00 00                	add    BYTE PTR [rax],al
+ 5a4:	00 00                	add    BYTE PTR [rax],al
+ 5a6:	00 00                	add    BYTE PTR [rax],al
+ 5a8:	10 40 00             	adc    BYTE PTR [rax+0x0],al
+ 5ab:	00 00                	add    BYTE PTR [rax],al
+ 5ad:	00 00                	add    BYTE PTR [rax],al
+ 5af:	00 c0                	add    al,al
+ 5b1:	3f                   	(bad)
+ 5b2:	00 00                	add    BYTE PTR [rax],al
+ 5b4:	00 00                	add    BYTE PTR [rax],al
+ 5b6:	00 00                	add    BYTE PTR [rax],al
+ 5b8:	06                   	(bad)
+ 5b9:	00 00                	add    BYTE PTR [rax],al
+ 5bb:	00 01                	add    BYTE PTR [rcx],al
+	...
+ 5c5:	00 00                	add    BYTE PTR [rax],al
+ 5c7:	00 c8                	add    al,cl
+ 5c9:	3f                   	(bad)
+ 5ca:	00 00                	add    BYTE PTR [rax],al
+ 5cc:	00 00                	add    BYTE PTR [rax],al
+ 5ce:	00 00                	add    BYTE PTR [rax],al
+ 5d0:	06                   	(bad)
+ 5d1:	00 00                	add    BYTE PTR [rax],al
+ 5d3:	00 02                	add    BYTE PTR [rdx],al
+	...
+ 5dd:	00 00                	add    BYTE PTR [rax],al
+ 5df:	00 d0                	add    al,dl
+ 5e1:	3f                   	(bad)
+ 5e2:	00 00                	add    BYTE PTR [rax],al
+ 5e4:	00 00                	add    BYTE PTR [rax],al
+ 5e6:	00 00                	add    BYTE PTR [rax],al
+ 5e8:	06                   	(bad)
+ 5e9:	00 00                	add    BYTE PTR [rax],al
+ 5eb:	00 04 00             	add    BYTE PTR [rax+rax*1],al
+	...
+ 5f6:	00 00                	add    BYTE PTR [rax],al
+ 5f8:	d8 3f                	fdivr  DWORD PTR [rdi]
+ 5fa:	00 00                	add    BYTE PTR [rax],al
+ 5fc:	00 00                	add    BYTE PTR [rax],al
+ 5fe:	00 00                	add    BYTE PTR [rax],al
+ 600:	06                   	(bad)
+ 601:	00 00                	add    BYTE PTR [rax],al
+ 603:	00 05 00 00 00 00    	add    BYTE PTR [rip+0x0],al        # 609 <_init-0x9f7>
+ 609:	00 00                	add    BYTE PTR [rax],al
+ 60b:	00 00                	add    BYTE PTR [rax],al
+ 60d:	00 00                	add    BYTE PTR [rax],al
+ 60f:	00 e0                	add    al,ah
+ 611:	3f                   	(bad)
+ 612:	00 00                	add    BYTE PTR [rax],al
+ 614:	00 00                	add    BYTE PTR [rax],al
+ 616:	00 00                	add    BYTE PTR [rax],al
+ 618:	06                   	(bad)
+ 619:	00 00                	add    BYTE PTR [rax],al
+ 61b:	00 06                	add    BYTE PTR [rsi],al
+	...
+
+Disassembly of section .rela.plt:
+
+0000000000000628 <.rela.plt>:
+ 628:	00 40 00             	add    BYTE PTR [rax+0x0],al
+ 62b:	00 00                	add    BYTE PTR [rax],al
+ 62d:	00 00                	add    BYTE PTR [rax],al
+ 62f:	00 07                	add    BYTE PTR [rdi],al
+ 631:	00 00                	add    BYTE PTR [rax],al
+ 633:	00 03                	add    BYTE PTR [rbx],al
+	...
+
+Disassembly of section .init:
+
+0000000000001000 <_init>:
+    1000:	48 83 ec 08          	sub    rsp,0x8
+    1004:	48 8b 05 c5 2f 00 00 	mov    rax,QWORD PTR [rip+0x2fc5]        # 3fd0 <__gmon_start__>
+    100b:	48 85 c0             	test   rax,rax
+    100e:	74 02                	je     1012 <_init+0x12>
+    1010:	ff d0                	call   rax
+    1012:	48 83 c4 08          	add    rsp,0x8
+    1016:	c3                   	ret
+
+Disassembly of section .plt:
+
+0000000000001020 <puts@plt-0x10>:
+    1020:	ff 35 ca 2f 00 00    	push   QWORD PTR [rip+0x2fca]        # 3ff0 <_GLOBAL_OFFSET_TABLE_+0x8>
+    1026:	ff 25 cc 2f 00 00    	jmp    QWORD PTR [rip+0x2fcc]        # 3ff8 <_GLOBAL_OFFSET_TABLE_+0x10>
+    102c:	0f 1f 40 00          	nop    DWORD PTR [rax+0x0]
+
+0000000000001030 <puts@plt>:
+    1030:	ff 25 ca 2f 00 00    	jmp    QWORD PTR [rip+0x2fca]        # 4000 <puts@GLIBC_2.2.5>
+    1036:	68 00 00 00 00       	push   0x0
+    103b:	e9 e0 ff ff ff       	jmp    1020 <_init+0x20>
+
+Disassembly of section .plt.got:
+
+0000000000001040 <__cxa_finalize@plt>:
+    1040:	ff 25 9a 2f 00 00    	jmp    QWORD PTR [rip+0x2f9a]        # 3fe0 <__cxa_finalize@GLIBC_2.2.5>
+    1046:	66 90                	xchg   ax,ax
+
+Disassembly of section .text:
+
+0000000000001050 <_start>:
+    1050:	31 ed                	xor    ebp,ebp
+    1052:	49 89 d1             	mov    r9,rdx
+    1055:	5e                   	pop    rsi
+    1056:	48 89 e2             	mov    rdx,rsp
+    1059:	48 83 e4 f0          	and    rsp,0xfffffffffffffff0
+    105d:	50                   	push   rax
+    105e:	54                   	push   rsp
+    105f:	45 31 c0             	xor    r8d,r8d
+    1062:	31 c9                	xor    ecx,ecx
+    1064:	48 8d 3d ce 00 00 00 	lea    rdi,[rip+0xce]        # 1139 <main>
+    106b:	ff 15 4f 2f 00 00    	call   QWORD PTR [rip+0x2f4f]        # 3fc0 <__libc_start_main@GLIBC_2.34>
+    1071:	f4                   	hlt
+    1072:	66 2e 0f 1f 84 00 00 	cs nop WORD PTR [rax+rax*1+0x0]
+    1079:	00 00 00 
+    107c:	0f 1f 40 00          	nop    DWORD PTR [rax+0x0]
+
+0000000000001080 <deregister_tm_clones>:
+    1080:	48 8d 3d 91 2f 00 00 	lea    rdi,[rip+0x2f91]        # 4018 <__TMC_END__>
+    1087:	48 8d 05 8a 2f 00 00 	lea    rax,[rip+0x2f8a]        # 4018 <__TMC_END__>
+    108e:	48 39 f8             	cmp    rax,rdi
+    1091:	74 15                	je     10a8 <deregister_tm_clones+0x28>
+    1093:	48 8b 05 2e 2f 00 00 	mov    rax,QWORD PTR [rip+0x2f2e]        # 3fc8 <_ITM_deregisterTMCloneTable>
+    109a:	48 85 c0             	test   rax,rax
+    109d:	74 09                	je     10a8 <deregister_tm_clones+0x28>
+    109f:	ff e0                	jmp    rax
+    10a1:	0f 1f 80 00 00 00 00 	nop    DWORD PTR [rax+0x0]
+    10a8:	c3                   	ret
+    10a9:	0f 1f 80 00 00 00 00 	nop    DWORD PTR [rax+0x0]
+
+00000000000010b0 <register_tm_clones>:
+    10b0:	48 8d 3d 61 2f 00 00 	lea    rdi,[rip+0x2f61]        # 4018 <__TMC_END__>
+    10b7:	48 8d 35 5a 2f 00 00 	lea    rsi,[rip+0x2f5a]        # 4018 <__TMC_END__>
+    10be:	48 29 fe             	sub    rsi,rdi
+    10c1:	48 89 f0             	mov    rax,rsi
+    10c4:	48 c1 ee 3f          	shr    rsi,0x3f
+    10c8:	48 c1 f8 03          	sar    rax,0x3
+    10cc:	48 01 c6             	add    rsi,rax
+    10cf:	48 d1 fe             	sar    rsi,1
+    10d2:	74 14                	je     10e8 <register_tm_clones+0x38>
+    10d4:	48 8b 05 fd 2e 00 00 	mov    rax,QWORD PTR [rip+0x2efd]        # 3fd8 <_ITM_registerTMCloneTable>
+    10db:	48 85 c0             	test   rax,rax
+    10de:	74 08                	je     10e8 <register_tm_clones+0x38>
+    10e0:	ff e0                	jmp    rax
+    10e2:	66 0f 1f 44 00 00    	nop    WORD PTR [rax+rax*1+0x0]
+    10e8:	c3                   	ret
+    10e9:	0f 1f 80 00 00 00 00 	nop    DWORD PTR [rax+0x0]
+
+00000000000010f0 <__do_global_dtors_aux>:
+    10f0:	f3 0f 1e fa          	endbr64
+    10f4:	80 3d 1d 2f 00 00 00 	cmp    BYTE PTR [rip+0x2f1d],0x0        # 4018 <__TMC_END__>
+    10fb:	75 2b                	jne    1128 <__do_global_dtors_aux+0x38>
+    10fd:	55                   	push   rbp
+    10fe:	48 83 3d da 2e 00 00 	cmp    QWORD PTR [rip+0x2eda],0x0        # 3fe0 <__cxa_finalize@GLIBC_2.2.5>
+    1105:	00 
+    1106:	48 89 e5             	mov    rbp,rsp
+    1109:	74 0c                	je     1117 <__do_global_dtors_aux+0x27>
+    110b:	48 8b 3d fe 2e 00 00 	mov    rdi,QWORD PTR [rip+0x2efe]        # 4010 <__dso_handle>
+    1112:	e8 29 ff ff ff       	call   1040 <__cxa_finalize@plt>
+    1117:	e8 64 ff ff ff       	call   1080 <deregister_tm_clones>
+    111c:	c6 05 f5 2e 00 00 01 	mov    BYTE PTR [rip+0x2ef5],0x1        # 4018 <__TMC_END__>
+    1123:	5d                   	pop    rbp
+    1124:	c3                   	ret
+    1125:	0f 1f 00             	nop    DWORD PTR [rax]
+    1128:	c3                   	ret
+    1129:	0f 1f 80 00 00 00 00 	nop    DWORD PTR [rax+0x0]
+
+0000000000001130 <frame_dummy>:
+    1130:	f3 0f 1e fa          	endbr64
+    1134:	e9 77 ff ff ff       	jmp    10b0 <register_tm_clones>
+
+0000000000001139 <main>:
+    1139:	55                   	push   rbp
+    113a:	48 89 e5             	mov    rbp,rsp
+    113d:	48 83 ec 10          	sub    rsp,0x10
+    1141:	c7 45 fc 01 00 00 00 	mov    DWORD PTR [rbp-0x4],0x1
+    1148:	eb 13                	jmp    115d <main+0x24>
+    114a:	83 45 fc 01          	add    DWORD PTR [rbp-0x4],0x1
+    114e:	48 8d 05 af 0e 00 00 	lea    rax,[rip+0xeaf]        # 2004 <_IO_stdin_used+0x4>
+    1155:	48 89 c7             	mov    rdi,rax
+    1158:	e8 d3 fe ff ff       	call   1030 <puts@plt>
+    115d:	83 7d fc 09          	cmp    DWORD PTR [rbp-0x4],0x9
+    1161:	7e e7                	jle    114a <main+0x11>
+    1163:	b8 00 00 00 00       	mov    eax,0x0
+    1168:	c9                   	leave
+    1169:	c3                   	ret
+
+Disassembly of section .fini:
+
+000000000000116c <_fini>:
+    116c:	48 83 ec 08          	sub    rsp,0x8
+    1170:	48 83 c4 08          	add    rsp,0x8
+    1174:	c3                   	ret
+
+Disassembly of section .rodata:
+
+0000000000002000 <_IO_stdin_used>:
+    2000:	01 00                	add    DWORD PTR [rax],eax
+    2002:	02 00                	add    al,BYTE PTR [rax]
+    2004:	48                   	rex.W
+    2005:	65 6c                	gs ins BYTE PTR [rdi],dx
+    2007:	6c                   	ins    BYTE PTR [rdi],dx
+    2008:	6f                   	outs   dx,DWORD PTR [rsi]
+    2009:	2c 20                	sub    al,0x20
+    200b:	57                   	push   rdi
+    200c:	6f                   	outs   dx,DWORD PTR [rsi]
+    200d:	72 6c                	jb     207b <__GNU_EH_FRAME_HDR+0x67>
+    200f:	64 21 0a             	and    DWORD PTR fs:[rdx],ecx
+	...
+
+Disassembly of section .eh_frame_hdr:
+
+0000000000002014 <__GNU_EH_FRAME_HDR>:
+    2014:	01 1b                	add    DWORD PTR [rbx],ebx
+    2016:	03 3b                	add    edi,DWORD PTR [rbx]
+    2018:	28 00                	sub    BYTE PTR [rax],al
+    201a:	00 00                	add    BYTE PTR [rax],al
+    201c:	04 00                	add    al,0x0
+    201e:	00 00                	add    BYTE PTR [rax],al
+    2020:	0c f0                	or     al,0xf0
+    2022:	ff                   	(bad)
+    2023:	ff 74 00 00          	push   QWORD PTR [rax+rax*1+0x0]
+    2027:	00 2c f0             	add    BYTE PTR [rax+rsi*8],ch
+    202a:	ff                   	(bad)
+    202b:	ff 9c 00 00 00 3c f0 	call   FWORD PTR [rax+rax*1-0xfc40000]
+    2032:	ff                   	(bad)
+    2033:	ff 44 00 00          	inc    DWORD PTR [rax+rax*1+0x0]
+    2037:	00 25 f1 ff ff b4    	add    BYTE PTR [rip+0xffffffffb4fffff1],ah        # ffffffffb500202e <_end+0xffffffffb4ffe00e>
+    203d:	00 00                	add    BYTE PTR [rax],al
+	...
+
+Disassembly of section .eh_frame:
+
+0000000000002040 <__FRAME_END__-0xa8>:
+    2040:	14 00                	adc    al,0x0
+    2042:	00 00                	add    BYTE PTR [rax],al
+    2044:	00 00                	add    BYTE PTR [rax],al
+    2046:	00 00                	add    BYTE PTR [rax],al
+    2048:	01 7a 52             	add    DWORD PTR [rdx+0x52],edi
+    204b:	00 01                	add    BYTE PTR [rcx],al
+    204d:	78 10                	js     205f <__GNU_EH_FRAME_HDR+0x4b>
+    204f:	01 1b                	add    DWORD PTR [rbx],ebx
+    2051:	0c 07                	or     al,0x7
+    2053:	08 90 01 07 10 14    	or     BYTE PTR [rax+0x14100701],dl
+    2059:	00 00                	add    BYTE PTR [rax],al
+    205b:	00 1c 00             	add    BYTE PTR [rax+rax*1],bl
+    205e:	00 00                	add    BYTE PTR [rax],al
+    2060:	f0 ef                	lock out dx,eax
+    2062:	ff                   	(bad)
+    2063:	ff 22                	jmp    QWORD PTR [rdx]
+	...
+    206d:	00 00                	add    BYTE PTR [rax],al
+    206f:	00 14 00             	add    BYTE PTR [rax+rax*1],dl
+    2072:	00 00                	add    BYTE PTR [rax],al
+    2074:	00 00                	add    BYTE PTR [rax],al
+    2076:	00 00                	add    BYTE PTR [rax],al
+    2078:	01 7a 52             	add    DWORD PTR [rdx+0x52],edi
+    207b:	00 01                	add    BYTE PTR [rcx],al
+    207d:	78 10                	js     208f <__GNU_EH_FRAME_HDR+0x7b>
+    207f:	01 1b                	add    DWORD PTR [rbx],ebx
+    2081:	0c 07                	or     al,0x7
+    2083:	08 90 01 00 00 24    	or     BYTE PTR [rax+0x24000001],dl
+    2089:	00 00                	add    BYTE PTR [rax],al
+    208b:	00 1c 00             	add    BYTE PTR [rax+rax*1],bl
+    208e:	00 00                	add    BYTE PTR [rax],al
+    2090:	90                   	nop
+    2091:	ef                   	out    dx,eax
+    2092:	ff                   	(bad)
+    2093:	ff 20                	jmp    QWORD PTR [rax]
+    2095:	00 00                	add    BYTE PTR [rax],al
+    2097:	00 00                	add    BYTE PTR [rax],al
+    2099:	0e                   	(bad)
+    209a:	10 46 0e             	adc    BYTE PTR [rsi+0xe],al
+    209d:	18 4a 0f             	sbb    BYTE PTR [rdx+0xf],cl
+    20a0:	0b 77 08             	or     esi,DWORD PTR [rdi+0x8]
+    20a3:	80 00 3f             	add    BYTE PTR [rax],0x3f
+    20a6:	1a 3b                	sbb    bh,BYTE PTR [rbx]
+    20a8:	2a 33                	sub    dh,BYTE PTR [rbx]
+    20aa:	24 22                	and    al,0x22
+    20ac:	00 00                	add    BYTE PTR [rax],al
+    20ae:	00 00                	add    BYTE PTR [rax],al
+    20b0:	14 00                	adc    al,0x0
+    20b2:	00 00                	add    BYTE PTR [rax],al
+    20b4:	44 00 00             	add    BYTE PTR [rax],r8b
+    20b7:	00 88 ef ff ff 08    	add    BYTE PTR [rax+0x8ffffef],cl
+	...
+    20c5:	00 00                	add    BYTE PTR [rax],al
+    20c7:	00 1c 00             	add    BYTE PTR [rax+rax*1],bl
+    20ca:	00 00                	add    BYTE PTR [rax],al
+    20cc:	5c                   	pop    rsp
+    20cd:	00 00                	add    BYTE PTR [rax],al
+    20cf:	00 69 f0             	add    BYTE PTR [rcx-0x10],ch
+    20d2:	ff                   	(bad)
+    20d3:	ff 31                	push   QWORD PTR [rcx]
+    20d5:	00 00                	add    BYTE PTR [rax],al
+    20d7:	00 00                	add    BYTE PTR [rax],al
+    20d9:	41 0e                	rex.B (bad)
+    20db:	10 86 02 43 0d 06    	adc    BYTE PTR [rsi+0x60d4302],al
+    20e1:	6c                   	ins    BYTE PTR [rdi],dx
+    20e2:	0c 07                	or     al,0x7
+    20e4:	08 00                	or     BYTE PTR [rax],al
+	...
+
+00000000000020e8 <__FRAME_END__>:
+    20e8:	00 00                	add    BYTE PTR [rax],al
+	...
+
+Disassembly of section .sframe:
+
+00000000000020f0 <.sframe>:
+    20f0:	e2 de                	loop   20d0 <__GNU_EH_FRAME_HDR+0xbc>
+    20f2:	02 05 03 00 f8 00    	add    al,BYTE PTR [rip+0xf80003]        # f820fb <_end+0xf7e0db>
+    20f8:	04 00                	add    al,0x0
+    20fa:	00 00                	add    BYTE PTR [rax],al
+    20fc:	06                   	(bad)
+    20fd:	00 00                	add    BYTE PTR [rax],al
+    20ff:	00 11                	add    BYTE PTR [rcx],dl
+    2101:	00 00                	add    BYTE PTR [rax],al
+    2103:	00 00                	add    BYTE PTR [rax],al
+    2105:	00 00                	add    BYTE PTR [rax],al
+    2107:	00 50 00             	add    BYTE PTR [rax+0x0],dl
+    210a:	00 00                	add    BYTE PTR [rax],al
+    210c:	14 ef                	adc    al,0xef
+    210e:	ff                   	(bad)
+    210f:	ff 10                	call   QWORD PTR [rax]
+    2111:	00 00                	add    BYTE PTR [rax],al
+    2113:	00 02                	add    BYTE PTR [rdx],al
+    2115:	00 00                	add    BYTE PTR [rax],al
+    2117:	00 02                	add    BYTE PTR [rdx],al
+    2119:	00 00                	add    BYTE PTR [rax],al
+    211b:	00 00                	add    BYTE PTR [rax],al
+    211d:	00 00                	add    BYTE PTR [rax],al
+    211f:	00 10                	add    BYTE PTR [rax],dl
+    2121:	ef                   	out    dx,eax
+    2122:	ff                   	(bad)
+    2123:	ff 10                	call   QWORD PTR [rax]
+    2125:	00 00                	add    BYTE PTR [rax],al
+    2127:	00 08                	add    BYTE PTR [rax],cl
+    2129:	00 00                	add    BYTE PTR [rax],al
+    212b:	00 02                	add    BYTE PTR [rdx],al
+    212d:	00 00                	add    BYTE PTR [rax],al
+    212f:	00 10                	add    BYTE PTR [rax],dl
+    2131:	10 00                	adc    BYTE PTR [rax],al
+    2133:	00 0c ef             	add    BYTE PTR [rdi+rbp*8],cl
+    2136:	ff                   	(bad)
+    2137:	ff 08                	dec    DWORD PTR [rax]
+    2139:	00 00                	add    BYTE PTR [rax],al
+    213b:	00 0e                	add    BYTE PTR [rsi],cl
+    213d:	00 00                	add    BYTE PTR [rax],al
+    213f:	00 01                	add    BYTE PTR [rcx],al
+    2141:	00 00                	add    BYTE PTR [rax],al
+    2143:	00 10                	add    BYTE PTR [rax],dl
+    2145:	08 00                	or     BYTE PTR [rax],al
+    2147:	00 08                	add    BYTE PTR [rax],cl
+    2149:	ef                   	out    dx,eax
+    214a:	ff                   	(bad)
+    214b:	ff 22                	jmp    QWORD PTR [rdx]
+    214d:	00 00                	add    BYTE PTR [rax],al
+    214f:	00 00                	add    BYTE PTR [rax],al
+    2151:	00 00                	add    BYTE PTR [rax],al
+    2153:	00 01                	add    BYTE PTR [rcx],al
+	...
+    215d:	00 00                	add    BYTE PTR [rax],al
+    215f:	03 10                	add    edx,DWORD PTR [rax]
+    2161:	06                   	(bad)
+    2162:	03 18                	add    ebx,DWORD PTR [rax]
+    2164:	00 03                	add    BYTE PTR [rbx],al
+    2166:	08 0b                	or     BYTE PTR [rbx],cl
+    2168:	03 10                	add    edx,DWORD PTR [rax]
+    216a:	00 03                	add    BYTE PTR [rbx],al
+    216c:	10                   	.byte 0x10
+
+Disassembly of section .note.gnu.property:
+
+00000000000021a8 <.note.gnu.property>:
+    21a8:	04 00                	add    al,0x0
+    21aa:	00 00                	add    BYTE PTR [rax],al
+    21ac:	10 00                	adc    BYTE PTR [rax],al
+    21ae:	00 00                	add    BYTE PTR [rax],al
+    21b0:	05 00 00 00 47       	add    eax,0x47000000
+    21b5:	4e 55                	rex.WRX push rbp
+    21b7:	00 02                	add    BYTE PTR [rdx],al
+    21b9:	80 00 c0             	add    BYTE PTR [rax],0xc0
+    21bc:	04 00                	add    al,0x0
+    21be:	00 00                	add    BYTE PTR [rax],al
+    21c0:	01 00                	add    DWORD PTR [rax],eax
+    21c2:	00 00                	add    BYTE PTR [rax],al
+    21c4:	00 00                	add    BYTE PTR [rax],al
+	...
+
+Disassembly of section .note.ABI-tag:
+
+00000000000021c8 <__abi_tag>:
+    21c8:	04 00                	add    al,0x0
+    21ca:	00 00                	add    BYTE PTR [rax],al
+    21cc:	10 00                	adc    BYTE PTR [rax],al
+    21ce:	00 00                	add    BYTE PTR [rax],al
+    21d0:	01 00                	add    DWORD PTR [rax],eax
+    21d2:	00 00                	add    BYTE PTR [rax],al
+    21d4:	47                   	rex.RXB
+    21d5:	4e 55                	rex.WRX push rbp
+    21d7:	00 00                	add    BYTE PTR [rax],al
+    21d9:	00 00                	add    BYTE PTR [rax],al
+    21db:	00 03                	add    BYTE PTR [rbx],al
+    21dd:	00 00                	add    BYTE PTR [rax],al
+    21df:	00 02                	add    BYTE PTR [rdx],al
+    21e1:	00 00                	add    BYTE PTR [rax],al
+    21e3:	00 00                	add    BYTE PTR [rax],al
+    21e5:	00 00                	add    BYTE PTR [rax],al
+	...
+
+Disassembly of section .init_array:
+
+0000000000003dd0 <__frame_dummy_init_array_entry>:
+    3dd0:	30 11                	xor    BYTE PTR [rcx],dl
+    3dd2:	00 00                	add    BYTE PTR [rax],al
+    3dd4:	00 00                	add    BYTE PTR [rax],al
+	...
+
+Disassembly of section .fini_array:
+
+0000000000003dd8 <__do_global_dtors_aux_fini_array_entry>:
+    3dd8:	f0 10 00             	lock adc BYTE PTR [rax],al
+    3ddb:	00 00                	add    BYTE PTR [rax],al
+    3ddd:	00 00                	add    BYTE PTR [rax],al
+	...
+
+Disassembly of section .dynamic:
+
+0000000000003de0 <_DYNAMIC>:
+    3de0:	01 00                	add    DWORD PTR [rax],eax
+    3de2:	00 00                	add    BYTE PTR [rax],al
+    3de4:	00 00                	add    BYTE PTR [rax],al
+    3de6:	00 00                	add    BYTE PTR [rax],al
+    3de8:	27                   	(bad)
+    3de9:	00 00                	add    BYTE PTR [rax],al
+    3deb:	00 00                	add    BYTE PTR [rax],al
+    3ded:	00 00                	add    BYTE PTR [rax],al
+    3def:	00 0c 00             	add    BYTE PTR [rax+rax*1],cl
+    3df2:	00 00                	add    BYTE PTR [rax],al
+    3df4:	00 00                	add    BYTE PTR [rax],al
+    3df6:	00 00                	add    BYTE PTR [rax],al
+    3df8:	00 10                	add    BYTE PTR [rax],dl
+    3dfa:	00 00                	add    BYTE PTR [rax],al
+    3dfc:	00 00                	add    BYTE PTR [rax],al
+    3dfe:	00 00                	add    BYTE PTR [rax],al
+    3e00:	0d 00 00 00 00       	or     eax,0x0
+    3e05:	00 00                	add    BYTE PTR [rax],al
+    3e07:	00 6c 11 00          	add    BYTE PTR [rcx+rdx*1+0x0],ch
+    3e0b:	00 00                	add    BYTE PTR [rax],al
+    3e0d:	00 00                	add    BYTE PTR [rax],al
+    3e0f:	00 19                	add    BYTE PTR [rcx],bl
+    3e11:	00 00                	add    BYTE PTR [rax],al
+    3e13:	00 00                	add    BYTE PTR [rax],al
+    3e15:	00 00                	add    BYTE PTR [rax],al
+    3e17:	00 d0                	add    al,dl
+    3e19:	3d 00 00 00 00       	cmp    eax,0x0
+    3e1e:	00 00                	add    BYTE PTR [rax],al
+    3e20:	1b 00                	sbb    eax,DWORD PTR [rax]
+    3e22:	00 00                	add    BYTE PTR [rax],al
+    3e24:	00 00                	add    BYTE PTR [rax],al
+    3e26:	00 00                	add    BYTE PTR [rax],al
+    3e28:	08 00                	or     BYTE PTR [rax],al
+    3e2a:	00 00                	add    BYTE PTR [rax],al
+    3e2c:	00 00                	add    BYTE PTR [rax],al
+    3e2e:	00 00                	add    BYTE PTR [rax],al
+    3e30:	1a 00                	sbb    al,BYTE PTR [rax]
+    3e32:	00 00                	add    BYTE PTR [rax],al
+    3e34:	00 00                	add    BYTE PTR [rax],al
+    3e36:	00 00                	add    BYTE PTR [rax],al
+    3e38:	d8 3d 00 00 00 00    	fdivr  DWORD PTR [rip+0x0]        # 3e3e <_DYNAMIC+0x5e>
+    3e3e:	00 00                	add    BYTE PTR [rax],al
+    3e40:	1c 00                	sbb    al,0x0
+    3e42:	00 00                	add    BYTE PTR [rax],al
+    3e44:	00 00                	add    BYTE PTR [rax],al
+    3e46:	00 00                	add    BYTE PTR [rax],al
+    3e48:	08 00                	or     BYTE PTR [rax],al
+    3e4a:	00 00                	add    BYTE PTR [rax],al
+    3e4c:	00 00                	add    BYTE PTR [rax],al
+    3e4e:	00 00                	add    BYTE PTR [rax],al
+    3e50:	f5                   	cmc
+    3e51:	fe                   	(bad)
+    3e52:	ff 6f 00             	jmp    FWORD PTR [rdi+0x0]
+    3e55:	00 00                	add    BYTE PTR [rax],al
+    3e57:	00 c8                	add    al,cl
+    3e59:	03 00                	add    eax,DWORD PTR [rax]
+    3e5b:	00 00                	add    BYTE PTR [rax],al
+    3e5d:	00 00                	add    BYTE PTR [rax],al
+    3e5f:	00 05 00 00 00 00    	add    BYTE PTR [rip+0x0],al        # 3e65 <_DYNAMIC+0x85>
+    3e65:	00 00                	add    BYTE PTR [rax],al
+    3e67:	00 98 04 00 00 00    	add    BYTE PTR [rax+0x4],bl
+    3e6d:	00 00                	add    BYTE PTR [rax],al
+    3e6f:	00 06                	add    BYTE PTR [rsi],al
+    3e71:	00 00                	add    BYTE PTR [rax],al
+    3e73:	00 00                	add    BYTE PTR [rax],al
+    3e75:	00 00                	add    BYTE PTR [rax],al
+    3e77:	00 f0                	add    al,dh
+    3e79:	03 00                	add    eax,DWORD PTR [rax]
+    3e7b:	00 00                	add    BYTE PTR [rax],al
+    3e7d:	00 00                	add    BYTE PTR [rax],al
+    3e7f:	00 0a                	add    BYTE PTR [rdx],cl
+    3e81:	00 00                	add    BYTE PTR [rax],al
+    3e83:	00 00                	add    BYTE PTR [rax],al
+    3e85:	00 00                	add    BYTE PTR [rax],al
+    3e87:	00 8d 00 00 00 00    	add    BYTE PTR [rbp+0x0],cl
+    3e8d:	00 00                	add    BYTE PTR [rax],al
+    3e8f:	00 0b                	add    BYTE PTR [rbx],cl
+    3e91:	00 00                	add    BYTE PTR [rax],al
+    3e93:	00 00                	add    BYTE PTR [rax],al
+    3e95:	00 00                	add    BYTE PTR [rax],al
+    3e97:	00 18                	add    BYTE PTR [rax],bl
+    3e99:	00 00                	add    BYTE PTR [rax],al
+    3e9b:	00 00                	add    BYTE PTR [rax],al
+    3e9d:	00 00                	add    BYTE PTR [rax],al
+    3e9f:	00 15 00 00 00 00    	add    BYTE PTR [rip+0x0],dl        # 3ea5 <_DYNAMIC+0xc5>
+	...
+    3ead:	00 00                	add    BYTE PTR [rax],al
+    3eaf:	00 03                	add    BYTE PTR [rbx],al
+    3eb1:	00 00                	add    BYTE PTR [rax],al
+    3eb3:	00 00                	add    BYTE PTR [rax],al
+    3eb5:	00 00                	add    BYTE PTR [rax],al
+    3eb7:	00 e8                	add    al,ch
+    3eb9:	3f                   	(bad)
+    3eba:	00 00                	add    BYTE PTR [rax],al
+    3ebc:	00 00                	add    BYTE PTR [rax],al
+    3ebe:	00 00                	add    BYTE PTR [rax],al
+    3ec0:	02 00                	add    al,BYTE PTR [rax]
+    3ec2:	00 00                	add    BYTE PTR [rax],al
+    3ec4:	00 00                	add    BYTE PTR [rax],al
+    3ec6:	00 00                	add    BYTE PTR [rax],al
+    3ec8:	18 00                	sbb    BYTE PTR [rax],al
+    3eca:	00 00                	add    BYTE PTR [rax],al
+    3ecc:	00 00                	add    BYTE PTR [rax],al
+    3ece:	00 00                	add    BYTE PTR [rax],al
+    3ed0:	14 00                	adc    al,0x0
+    3ed2:	00 00                	add    BYTE PTR [rax],al
+    3ed4:	00 00                	add    BYTE PTR [rax],al
+    3ed6:	00 00                	add    BYTE PTR [rax],al
+    3ed8:	07                   	(bad)
+    3ed9:	00 00                	add    BYTE PTR [rax],al
+    3edb:	00 00                	add    BYTE PTR [rax],al
+    3edd:	00 00                	add    BYTE PTR [rax],al
+    3edf:	00 17                	add    BYTE PTR [rdi],dl
+    3ee1:	00 00                	add    BYTE PTR [rax],al
+    3ee3:	00 00                	add    BYTE PTR [rax],al
+    3ee5:	00 00                	add    BYTE PTR [rax],al
+    3ee7:	00 28                	add    BYTE PTR [rax],ch
+    3ee9:	06                   	(bad)
+    3eea:	00 00                	add    BYTE PTR [rax],al
+    3eec:	00 00                	add    BYTE PTR [rax],al
+    3eee:	00 00                	add    BYTE PTR [rax],al
+    3ef0:	07                   	(bad)
+    3ef1:	00 00                	add    BYTE PTR [rax],al
+    3ef3:	00 00                	add    BYTE PTR [rax],al
+    3ef5:	00 00                	add    BYTE PTR [rax],al
+    3ef7:	00 68 05             	add    BYTE PTR [rax+0x5],ch
+    3efa:	00 00                	add    BYTE PTR [rax],al
+    3efc:	00 00                	add    BYTE PTR [rax],al
+    3efe:	00 00                	add    BYTE PTR [rax],al
+    3f00:	08 00                	or     BYTE PTR [rax],al
+    3f02:	00 00                	add    BYTE PTR [rax],al
+    3f04:	00 00                	add    BYTE PTR [rax],al
+    3f06:	00 00                	add    BYTE PTR [rax],al
+    3f08:	c0 00 00             	rol    BYTE PTR [rax],0x0
+    3f0b:	00 00                	add    BYTE PTR [rax],al
+    3f0d:	00 00                	add    BYTE PTR [rax],al
+    3f0f:	00 09                	add    BYTE PTR [rcx],cl
+    3f11:	00 00                	add    BYTE PTR [rax],al
+    3f13:	00 00                	add    BYTE PTR [rax],al
+    3f15:	00 00                	add    BYTE PTR [rax],al
+    3f17:	00 18                	add    BYTE PTR [rax],bl
+    3f19:	00 00                	add    BYTE PTR [rax],al
+    3f1b:	00 00                	add    BYTE PTR [rax],al
+    3f1d:	00 00                	add    BYTE PTR [rax],al
+    3f1f:	00 fb                	add    bl,bh
+    3f21:	ff                   	(bad)
+    3f22:	ff 6f 00             	jmp    FWORD PTR [rdi+0x0]
+    3f25:	00 00                	add    BYTE PTR [rax],al
+    3f27:	00 00                	add    BYTE PTR [rax],al
+    3f29:	00 00                	add    BYTE PTR [rax],al
+    3f2b:	08 00                	or     BYTE PTR [rax],al
+    3f2d:	00 00                	add    BYTE PTR [rax],al
+    3f2f:	00 fe                	add    dh,bh
+    3f31:	ff                   	(bad)
+    3f32:	ff 6f 00             	jmp    FWORD PTR [rdi+0x0]
+    3f35:	00 00                	add    BYTE PTR [rax],al
+    3f37:	00 38                	add    BYTE PTR [rax],bh
+    3f39:	05 00 00 00 00       	add    eax,0x0
+    3f3e:	00 00                	add    BYTE PTR [rax],al
+    3f40:	ff                   	(bad)
+    3f41:	ff                   	(bad)
+    3f42:	ff 6f 00             	jmp    FWORD PTR [rdi+0x0]
+    3f45:	00 00                	add    BYTE PTR [rax],al
+    3f47:	00 01                	add    BYTE PTR [rcx],al
+    3f49:	00 00                	add    BYTE PTR [rax],al
+    3f4b:	00 00                	add    BYTE PTR [rax],al
+    3f4d:	00 00                	add    BYTE PTR [rax],al
+    3f4f:	00 f0                	add    al,dh
+    3f51:	ff                   	(bad)
+    3f52:	ff 6f 00             	jmp    FWORD PTR [rdi+0x0]
+    3f55:	00 00                	add    BYTE PTR [rax],al
+    3f57:	00 26                	add    BYTE PTR [rsi],ah
+    3f59:	05 00 00 00 00       	add    eax,0x0
+    3f5e:	00 00                	add    BYTE PTR [rax],al
+    3f60:	f9                   	stc
+    3f61:	ff                   	(bad)
+    3f62:	ff 6f 00             	jmp    FWORD PTR [rdi+0x0]
+    3f65:	00 00                	add    BYTE PTR [rax],al
+    3f67:	00 03                	add    BYTE PTR [rbx],al
+	...
+
+Disassembly of section .got:
+
+0000000000003fc0 <.got>:
+	...
+
+Disassembly of section .got.plt:
+
+0000000000003fe8 <_GLOBAL_OFFSET_TABLE_>:
+    3fe8:	e0 3d                	loopne 4027 <_end+0x7>
+	...
+    3ffe:	00 00                	add    BYTE PTR [rax],al
+    4000:	36 10 00             	ss adc BYTE PTR [rax],al
+    4003:	00 00                	add    BYTE PTR [rax],al
+    4005:	00 00                	add    BYTE PTR [rax],al
+	...
+
+Disassembly of section .data:
+
+0000000000004008 <__data_start>:
+	...
+
+0000000000004010 <__dso_handle>:
+    4010:	10 40 00             	adc    BYTE PTR [rax+0x0],al
+    4013:	00 00                	add    BYTE PTR [rax],al
+    4015:	00 00                	add    BYTE PTR [rax],al
+	...
+
+Disassembly of section .comment:
+
+0000000000000000 <.comment>:
+   0:	47                   	rex.RXB
+   1:	43                   	rex.XB
+   2:	43 3a 20             	rex.XB cmp spl,BYTE PTR [r8]
+   5:	28 44 65 62          	sub    BYTE PTR [rbp+riz*2+0x62],al
+   9:	69 61 6e 20 31 35 2e 	imul   esp,DWORD PTR [rcx+0x6e],0x2e353120
+  10:	32 2e                	xor    ch,BYTE PTR [rsi]
+  12:	30 2d 31 32 29 20    	xor    BYTE PTR [rip+0x20293231],ch        # 20293249 <_end+0x2028f229>
+  18:	31 35 2e 32 2e 30    	xor    DWORD PTR [rip+0x302e322e],esi        # 302e324c <_end+0x302df22c>
+	...
+
+Disassembly of section .debug_aranges:
+
+0000000000000000 <.debug_aranges>:
+   0:	2c 00                	sub    al,0x0
+   2:	00 00                	add    BYTE PTR [rax],al
+   4:	02 00                	add    al,BYTE PTR [rax]
+   6:	00 00                	add    BYTE PTR [rax],al
+   8:	00 00                	add    BYTE PTR [rax],al
+   a:	08 00                	or     BYTE PTR [rax],al
+   c:	00 00                	add    BYTE PTR [rax],al
+   e:	00 00                	add    BYTE PTR [rax],al
+  10:	39 11                	cmp    DWORD PTR [rcx],edx
+  12:	00 00                	add    BYTE PTR [rax],al
+  14:	00 00                	add    BYTE PTR [rax],al
+  16:	00 00                	add    BYTE PTR [rax],al
+  18:	31 00                	xor    DWORD PTR [rax],eax
+	...
+
+Disassembly of section .debug_info:
+
+0000000000000000 <.debug_info>:
+   0:	bd 00 00 00 05       	mov    ebp,0x5000000
+   5:	00 01                	add    BYTE PTR [rcx],al
+   7:	08 00                	or     BYTE PTR [rax],al
+   9:	00 00                	add    BYTE PTR [rax],al
+   b:	00 02                	add    BYTE PTR [rdx],al
+   d:	34 00                	xor    al,0x0
+   f:	00 00                	add    BYTE PTR [rax],al
+  11:	1d 03 47 16 03       	sbb    eax,0x3164703
+  16:	00 1d 00 00 00 00    	add    BYTE PTR [rip+0x0],bl        # 1c <_init-0xfe4>
+  1c:	00 00                	add    BYTE PTR [rax],al
+  1e:	00 39                	add    BYTE PTR [rcx],bh
+  20:	11 00                	adc    DWORD PTR [rax],eax
+  22:	00 00                	add    BYTE PTR [rax],al
+  24:	00 00                	add    BYTE PTR [rax],al
+  26:	00 31                	add    BYTE PTR [rcx],dh
+	...
+  30:	00 00                	add    BYTE PTR [rax],al
+  32:	00 01                	add    BYTE PTR [rcx],al
+  34:	08 07                	or     BYTE PTR [rdi],al
+  36:	00 00                	add    BYTE PTR [rax],al
+  38:	00 00                	add    BYTE PTR [rax],al
+  3a:	01 04 07             	add    DWORD PTR [rdi+rax*1],eax
+  3d:	05 00 00 00 01       	add    eax,0x1000000
+  42:	01 08                	add    DWORD PTR [rax],ecx
+  44:	80 00 00             	add    BYTE PTR [rax],0x0
+  47:	00 01                	add    BYTE PTR [rcx],al
+  49:	02 07                	add    al,BYTE PTR [rdi]
+  4b:	12 00                	adc    al,BYTE PTR [rax]
+  4d:	00 00                	add    BYTE PTR [rax],al
+  4f:	01 01                	add    DWORD PTR [rcx],eax
+  51:	06                   	(bad)
+  52:	82                   	(bad)
+  53:	00 00                	add    BYTE PTR [rax],al
+  55:	00 01                	add    BYTE PTR [rcx],al
+  57:	02 05 25 00 00 00    	add    al,BYTE PTR [rip+0x25]        # 82 <_init-0xf7e>
+  5d:	03 04 05 69 6e 74 00 	add    eax,DWORD PTR [rax*1+0x746e69]
+  64:	01 08                	add    DWORD PTR [rax],ecx
+  66:	05 8e 00 00 00       	add    eax,0x8e
+  6b:	01 01                	add    DWORD PTR [rcx],eax
+  6d:	06                   	(bad)
+  6e:	89 00                	mov    DWORD PTR [rax],eax
+  70:	00 00                	add    BYTE PTR [rax],al
+  72:	04 6b                	add    al,0x6b
+  74:	00 00                	add    BYTE PTR [rax],al
+  76:	00 05 08 72 00 00    	add    BYTE PTR [rip+0x7208],al        # 7284 <_end+0x3264>
+  7c:	00 06                	add    BYTE PTR [rsi],al
+  7e:	2f                   	(bad)
+  7f:	00 00                	add    BYTE PTR [rax],al
+  81:	00 02                	add    BYTE PTR [rdx],al
+  83:	ca 02 0c             	retf   0xc02
+  86:	5d                   	pop    rbp
+  87:	00 00                	add    BYTE PTR [rax],al
+  89:	00 94 00 00 00 07 77 	add    BYTE PTR [rax+rax*1+0x77070000],dl
+  90:	00 00                	add    BYTE PTR [rax],al
+  92:	00 00                	add    BYTE PTR [rax],al
+  94:	08 97 00 00 00 01    	or     BYTE PTR [rdi+0x1000000],dl
+  9a:	05 05 5d 00 00       	add    eax,0x5d05
+  9f:	00 39                	add    BYTE PTR [rcx],bh
+  a1:	11 00                	adc    DWORD PTR [rax],eax
+  a3:	00 00                	add    BYTE PTR [rax],al
+  a5:	00 00                	add    BYTE PTR [rax],al
+  a7:	00 31                	add    BYTE PTR [rcx],dh
+  a9:	00 00                	add    BYTE PTR [rax],al
+  ab:	00 00                	add    BYTE PTR [rax],al
+  ad:	00 00                	add    BYTE PTR [rax],al
+  af:	00 01                	add    BYTE PTR [rcx],al
+  b1:	9c                   	pushf
+  b2:	09 69 00             	or     DWORD PTR [rcx+0x0],ebp
+  b5:	01 07                	add    DWORD PTR [rdi],eax
+  b7:	06                   	(bad)
+  b8:	5d                   	pop    rbp
+  b9:	00 00                	add    BYTE PTR [rax],al
+  bb:	00 02                	add    BYTE PTR [rdx],al
+  bd:	91                   	xchg   ecx,eax
+  be:	6c                   	ins    BYTE PTR [rdi],dx
+	...
+
+Disassembly of section .debug_abbrev:
+
+0000000000000000 <.debug_abbrev>:
+   0:	01 24 00             	add    DWORD PTR [rax+rax*1],esp
+   3:	0b 0b                	or     ecx,DWORD PTR [rbx]
+   5:	3e 0b 03             	ds or  eax,DWORD PTR [rbx]
+   8:	0e                   	(bad)
+   9:	00 00                	add    BYTE PTR [rax],al
+   b:	02 11                	add    dl,BYTE PTR [rcx]
+   d:	01 25 0e 13 0b 90    	add    DWORD PTR [rip+0xffffffff900b130e],esp        # ffffffff900b1321 <_end+0xffffffff900ad301>
+  13:	01 0b                	add    DWORD PTR [rbx],ecx
+  15:	91                   	xchg   ecx,eax
+  16:	01 06                	add    DWORD PTR [rsi],eax
+  18:	03 1f                	add    ebx,DWORD PTR [rdi]
+  1a:	1b 1f                	sbb    ebx,DWORD PTR [rdi]
+  1c:	11 01                	adc    DWORD PTR [rcx],eax
+  1e:	12 07                	adc    al,BYTE PTR [rdi]
+  20:	10 17                	adc    BYTE PTR [rdi],dl
+  22:	00 00                	add    BYTE PTR [rax],al
+  24:	03 24 00             	add    esp,DWORD PTR [rax+rax*1]
+  27:	0b 0b                	or     ecx,DWORD PTR [rbx]
+  29:	3e 0b 03             	ds or  eax,DWORD PTR [rbx]
+  2c:	08 00                	or     BYTE PTR [rax],al
+  2e:	00 04 26             	add    BYTE PTR [rsi+riz*1],al
+  31:	00 49 13             	add    BYTE PTR [rcx+0x13],cl
+  34:	00 00                	add    BYTE PTR [rax],al
+  36:	05 0f 00 0b 0b       	add    eax,0xb0b000f
+  3b:	49 13 00             	adc    rax,QWORD PTR [r8]
+  3e:	00 06                	add    BYTE PTR [rsi],al
+  40:	2e 01 3f             	cs add DWORD PTR [rdi],edi
+  43:	19 03                	sbb    DWORD PTR [rbx],eax
+  45:	0e                   	(bad)
+  46:	3a 0b                	cmp    cl,BYTE PTR [rbx]
+  48:	3b 05 39 0b 27 19    	cmp    eax,DWORD PTR [rip+0x19270b39]        # 19270b87 <_end+0x1926cb67>
+  4e:	49 13 3c 19          	adc    rdi,QWORD PTR [r9+rbx*1]
+  52:	01 13                	add    DWORD PTR [rbx],edx
+  54:	00 00                	add    BYTE PTR [rax],al
+  56:	07                   	(bad)
+  57:	05 00 49 13 00       	add    eax,0x134900
+  5c:	00 08                	add    BYTE PTR [rax],cl
+  5e:	2e 01 3f             	cs add DWORD PTR [rdi],edi
+  61:	19 03                	sbb    DWORD PTR [rbx],eax
+  63:	0e                   	(bad)
+  64:	3a 0b                	cmp    cl,BYTE PTR [rbx]
+  66:	3b 0b                	cmp    ecx,DWORD PTR [rbx]
+  68:	39 0b                	cmp    DWORD PTR [rbx],ecx
+  6a:	27                   	(bad)
+  6b:	19 49 13             	sbb    DWORD PTR [rcx+0x13],ecx
+  6e:	11 01                	adc    DWORD PTR [rcx],eax
+  70:	12 07                	adc    al,BYTE PTR [rdi]
+  72:	40 18 7c 19 00       	sbb    BYTE PTR [rcx+rbx*1+0x0],dil
+  77:	00 09                	add    BYTE PTR [rcx],cl
+  79:	34 00                	xor    al,0x0
+  7b:	03 08                	add    ecx,DWORD PTR [rax]
+  7d:	3a 0b                	cmp    cl,BYTE PTR [rbx]
+  7f:	3b 0b                	cmp    ecx,DWORD PTR [rbx]
+  81:	39 0b                	cmp    DWORD PTR [rbx],ecx
+  83:	49 13 02             	adc    rax,QWORD PTR [r10]
+  86:	18 00                	sbb    BYTE PTR [rax],al
+	...
+
+Disassembly of section .debug_line:
+
+0000000000000000 <.debug_line>:
+   0:	63 00                	movsxd eax,DWORD PTR [rax]
+   2:	00 00                	add    BYTE PTR [rax],al
+   4:	05 00 08 00 33       	add    eax,0x33000800
+   9:	00 00                	add    BYTE PTR [rax],al
+   b:	00 01                	add    BYTE PTR [rcx],al
+   d:	01 01                	add    DWORD PTR [rcx],eax
+   f:	fb                   	sti
+  10:	0e                   	(bad)
+  11:	0d 00 01 01 01       	or     eax,0x1010100
+  16:	01 00                	add    DWORD PTR [rax],eax
+  18:	00 00                	add    BYTE PTR [rax],al
+  1a:	01 00                	add    DWORD PTR [rax],eax
+  1c:	00 01                	add    BYTE PTR [rcx],al
+  1e:	01 01                	add    DWORD PTR [rcx],eax
+  20:	1f                   	(bad)
+  21:	02 00                	add    al,BYTE PTR [rax]
+  23:	00 00                	add    BYTE PTR [rax],al
+  25:	00 21                	add    BYTE PTR [rcx],ah
+  27:	00 00                	add    BYTE PTR [rax],al
+  29:	00 02                	add    BYTE PTR [rdx],al
+  2b:	01 1f                	add    DWORD PTR [rdi],ebx
+  2d:	02 0f                	add    cl,BYTE PTR [rdi]
+  2f:	03 1d 00 00 00 00    	add    ebx,DWORD PTR [rip+0x0]        # 35 <_init-0xfcb>
+  35:	1d 00 00 00 00       	sbb    eax,0x0
+  3a:	2e 00 00             	cs add BYTE PTR [rax],al
+  3d:	00 01                	add    BYTE PTR [rcx],al
+  3f:	05 01 00 09 02       	add    eax,0x2090001
+  44:	39 11                	cmp    DWORD PTR [rcx],edx
+  46:	00 00                	add    BYTE PTR [rax],al
+  48:	00 00                	add    BYTE PTR [rax],al
+  4a:	00 00                	add    BYTE PTR [rax],al
+  4c:	17                   	(bad)
+  4d:	05 06 83 05 07       	add    eax,0x7058306
+  52:	76 05                	jbe    59 <_init-0xfa7>
+  54:	04 30                	add    al,0x30
+  56:	05 03 4c 05 0a       	add    eax,0xa054c03
+  5b:	e0 05                	loopne 62 <_init-0xf9e>
+  5d:	09 6e 05             	or     DWORD PTR [rsi+0x5],ebp
+  60:	01 5a 02             	add    DWORD PTR [rdx+0x2],ebx
+  63:	02 00                	add    al,BYTE PTR [rax]
+  65:	01 01                	add    DWORD PTR [rcx],eax
+
+Disassembly of section .debug_str:
+
+0000000000000000 <.debug_str>:
+   0:	6c                   	ins    BYTE PTR [rdi],dx
+   1:	6f                   	outs   dx,DWORD PTR [rsi]
+   2:	6e                   	outs   dx,BYTE PTR [rsi]
+   3:	67 20 75 6e          	and    BYTE PTR [ebp+0x6e],dh
+   7:	73 69                	jae    72 <_init-0xf8e>
+   9:	67 6e                	outs   dx,BYTE PTR [esi]
+   b:	65 64 20 69 6e       	gs and BYTE PTR fs:[rcx+0x6e],ch
+  10:	74 00                	je     12 <_init-0xfee>
+  12:	73 68                	jae    7c <_init-0xf84>
+  14:	6f                   	outs   dx,DWORD PTR [rsi]
+  15:	72 74                	jb     8b <_init-0xf75>
+  17:	20 75 6e             	and    BYTE PTR [rbp+0x6e],dh
+  1a:	73 69                	jae    85 <_init-0xf7b>
+  1c:	67 6e                	outs   dx,BYTE PTR [esi]
+  1e:	65 64 20 69 6e       	gs and BYTE PTR fs:[rcx+0x6e],ch
+  23:	74 00                	je     25 <_init-0xfdb>
+  25:	73 68                	jae    8f <_init-0xf71>
+  27:	6f                   	outs   dx,DWORD PTR [rsi]
+  28:	72 74                	jb     9e <_init-0xf62>
+  2a:	20 69 6e             	and    BYTE PTR [rcx+0x6e],ch
+  2d:	74 00                	je     2f <_init-0xfd1>
+  2f:	70 75                	jo     a6 <_init-0xf5a>
+  31:	74 73                	je     a6 <_init-0xf5a>
+  33:	00 47 4e             	add    BYTE PTR [rdi+0x4e],al
+  36:	55                   	push   rbp
+  37:	20 43 32             	and    BYTE PTR [rbx+0x32],al
+  3a:	33 20                	xor    esp,DWORD PTR [rax]
+  3c:	31 35 2e 32 2e 30    	xor    DWORD PTR [rip+0x302e322e],esi        # 302e3270 <_end+0x302df250>
+  42:	20 2d 6d 74 75 6e    	and    BYTE PTR [rip+0x6e75746d],ch        # 6e7574b5 <_end+0x6e753495>
+  48:	65 3d 67 65 6e 65    	gs cmp eax,0x656e6567
+  4e:	72 69                	jb     b9 <_init-0xf47>
+  50:	63 20                	movsxd esp,DWORD PTR [rax]
+  52:	2d 6d 61 72 63       	sub    eax,0x6372616d
+  57:	68 3d 78 38 36       	push   0x3638783d
+  5c:	2d 36 34 20 2d       	sub    eax,0x2d203436
+  61:	67 20 2d 66 61 73 79 	and    BYTE PTR [eip+0x79736166],ch        # 797361ce <_end+0x797321ae>
+  68:	6e                   	outs   dx,BYTE PTR [rsi]
+  69:	63 68 72             	movsxd ebp,DWORD PTR [rax+0x72]
+  6c:	6f                   	outs   dx,DWORD PTR [rsi]
+  6d:	6e                   	outs   dx,BYTE PTR [rsi]
+  6e:	6f                   	outs   dx,DWORD PTR [rsi]
+  6f:	75 73                	jne    e4 <_init-0xf1c>
+  71:	2d 75 6e 77 69       	sub    eax,0x69776e75
+  76:	6e                   	outs   dx,BYTE PTR [rsi]
+  77:	64 2d 74 61 62 6c    	fs sub eax,0x6c626174
+  7d:	65 73 00             	gs jae 80 <_init-0xf80>
+  80:	75 6e                	jne    f0 <_init-0xf10>
+  82:	73 69                	jae    ed <_init-0xf13>
+  84:	67 6e                	outs   dx,BYTE PTR [esi]
+  86:	65 64 20 63 68       	gs and BYTE PTR fs:[rbx+0x68],ah
+  8b:	61                   	(bad)
+  8c:	72 00                	jb     8e <_init-0xf72>
+  8e:	6c                   	ins    BYTE PTR [rdi],dx
+  8f:	6f                   	outs   dx,DWORD PTR [rsi]
+  90:	6e                   	outs   dx,BYTE PTR [rsi]
+  91:	67 20 69 6e          	and    BYTE PTR [ecx+0x6e],ch
+  95:	74 00                	je     97 <_init-0xf69>
+  97:	6d                   	ins    DWORD PTR [rdi],dx
+  98:	61                   	(bad)
+  99:	69                   	.byte 0x69
+  9a:	6e                   	outs   dx,BYTE PTR [rsi]
+	...
+
+Disassembly of section .debug_line_str:
+
+0000000000000000 <.debug_line_str>:
+   0:	2f                   	(bad)
+   1:	68 6f 6d 65 2f       	push   0x2f656d6f
+   6:	67 70 62             	addr32 jo 6b <_init-0xf95>
+   9:	31 34 37             	xor    DWORD PTR [rdi+rsi*1],esi
+   c:	2f                   	(bad)
+   d:	72 65                	jb     74 <_init-0xf8c>
+   f:	70 6f                	jo     80 <_init-0xf80>
+  11:	73 2f                	jae    42 <_init-0xfbe>
+  13:	54                   	push   rsp
+  14:	41 6f                	rex.B outs dx,DWORD PTR [rsi]
+  16:	45 32 2f             	xor    r13b,BYTE PTR [r15]
+  19:	73 72                	jae    8d <_init-0xf73>
+  1b:	63 00                	movsxd eax,DWORD PTR [rax]
+  1d:	30 2e                	xor    BYTE PTR [rsi],ch
+  1f:	63 00                	movsxd eax,DWORD PTR [rax]
+  21:	2f                   	(bad)
+  22:	75 73                	jne    97 <_init-0xf69>
+  24:	72 2f                	jb     55 <_init-0xfab>
+  26:	69 6e 63 6c 75 64 65 	imul   ebp,DWORD PTR [rsi+0x63],0x6564756c
+  2d:	00 73 74             	add    BYTE PTR [rbx+0x74],dh
+  30:	64                   	fs
+  31:	69                   	.byte 0x69
+  32:	6f                   	outs   dx,DWORD PTR [rsi]
+  33:	2e                   	cs
+  34:	68                   	.byte 0x68
+	...
